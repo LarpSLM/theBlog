@@ -1,0 +1,20 @@
+.wrapper {
+    overflow: auto;
+    height: 100%;
+}
+
+.allPosts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1000px));
+    justify-content: space-evenly;
+}
+
+.header {
+    font-size: 3em;
+    font-family: 'Permanent Marker', sans-serif;
+    color: #2b2b2b;
+    text-align: center;
+    margin: 0;
+    padding: 1em;
+    text-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;
+}

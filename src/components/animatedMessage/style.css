@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    padding: 15px;
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 0.8em;
+    top: 20px;
+    right: 35px;
+    background: #ededed;
+    border-radius: 5px;
+    box-shadow: -3px 1px 10px #d0d0d0;
+    animation: should 4s;
+}
+
+@keyframes should {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

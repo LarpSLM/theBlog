@@ -1,0 +1,70 @@
+.menu {
+    background: #ededed;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile h1 {
+    margin: 0 0 .8rem 0;
+    line-height: 100%;
+    color: #737373;
+    font-size: 1em;
+}
+
+.profile .avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid #737373;
+    background: linear-gradient(90deg, #4fc0e8, #48cfaf);
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.profile h2 {
+    margin: 0 0 .8em 0;
+    font-size: 1em;
+    line-height: 100%;
+    color: #737373;
+}
+
+.profile button {
+    height: 2.5em;
+    min-width: 30%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav a {
+    display: inline-block;
+    margin: 1vh auto;
+    text-decoration: none;
+    color: #737373;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.nav .active {
+    color: #2b2b2b;
+    border-left: 1px solid #2b2b2b;
+    border-right: 1px solid #2b2b2b;
+}
+
+.copyright {
+    color: #737373;
+    font-weight: 600;
+    margin: 0;
+    font-size: .8em;
+}
